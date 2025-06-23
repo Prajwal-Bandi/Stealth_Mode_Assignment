@@ -13,25 +13,22 @@ To identify and track players in a 15-second video using:
 ---
 
 ## 📁 Project Structure
+main.py
+best.pt
+15sec_input_720p.mp4
+output.mp4
 
 
 ---
 
 ## ⚙️ Installation & Setup
 
-### 🧪 Create a Virtual Environment (Optional)
-```bash
-python -m venv venv
-source venv/bin/activate        # macOS/Linux
-venv\Scripts\activate           # Windows
-
+### 🧪 Install Requirements
 pip install ultralytics==8.0.50
 pip install opencv-python
 pip install deep_sort_realtime
 
 
-model_path = r'C:\path\to\best.pt'
-video_path = r'C:\path\to\15sec_input_720p.mp4'
-output_path = r'C:\path\to\output.mp4'
 
+## Run 
 python main.py
