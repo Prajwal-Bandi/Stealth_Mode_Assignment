@@ -13,10 +13,10 @@ To identify and track players in a 15-second video using:
 ---
 
 ## 📁 Project Structure
-main.py
-best.pt
-15sec_input_720p.mp4
-output.mp4
+- main.py
+- best.pt
+- 15sec_input_720p.mp4
+- output.mp4
 
 
 ---
@@ -24,11 +24,11 @@ output.mp4
 ## ⚙️ Installation & Setup
 
 ### 🧪 Install Requirements
-pip install ultralytics==8.0.50
-pip install opencv-python
-pip install deep_sort_realtime
+- pip install ultralytics==8.0.50
+- pip install opencv-python
+- pip install deep_sort_realtime
 
 
 
 ## Run 
-python main.py
+- python main.py
